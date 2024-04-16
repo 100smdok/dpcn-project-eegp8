@@ -19,14 +19,14 @@ def convert_hdf5_to_csv(hdf5_file_path, output_csv_path):
 
 # Usage for multiple files
 hdf5_files = [ 
-    r'input filepath 1',
-    r'input filepath 2',
+    r'./029b0RMT.h5',
+    r'./117h0RMT.h5',
     # Add more file paths as needed
 ]
 
 output_csv_paths = [ 
-    r'output filepath 1',
-    r'output filepath 2',
+    r'029b0RMT.csv',
+    r'117h0RMT.csv',
     # Add more output paths corresponding to the input file paths
 ]
 
